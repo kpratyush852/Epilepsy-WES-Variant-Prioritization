@@ -1,0 +1,36 @@
+Workflow of Wes_Var_call
+
+Raw SRA Data(download.sh)
+↓
+FASTQ Conversion(download.sh)
+↓
+Quality Check (fastqc.sh)
+↓
+Read Trimming (trim.sh)
+↓
+Reference Preparation(prepare_ref.sh)
+↓
+Reads Alignment (BWA)[alignemnt.sh]
+Sorted BAM Creation  [alignemnt.sh]
+↓
+Alignment QC[alignment_stats.sh]
+↓
+WES Metrics(wes_metrics.sh]
+↓
+Duplicate Marking(mark_duplicate.sh)
+↓
+Variant Calling[gvcf] (variant_calling.sh)
+↓
+Combine GVCFs(combine_gvcfs.sh)
+↓
+Joint Genotyping(genotype_gvcfs.sh)
+↓
+SNP/INDEL Filtering(filter_snp.sh)/(filter_indels.sh)
+↓
+Merge Variants(merge_variants.sh)
+↓
+Variant Annotation(annotation.sh)
+↓
+Final Annotated Variant Table[variant_table.csv](annotation.sh)
+
+*** to check output files commands are provided in comments in some scripts only where is required.

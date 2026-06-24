@@ -1,0 +1,4 @@
+"CHROM","POS","REF","ALT","ANN.0..GENE","ANN.0..EFFECT"
+"chr16",86871,"C","G","NPRL3","splice_acceptor_variant&intron_variant"
+"chr16",93296,"G","T","NPRL3","stop_gained"
+"chr16",138304,"AGAGGAGGACGGAGCCGGAGGCGGAGGGGGCCT","A","NPRL3","splice_acceptor_variant&5_prime_UTR_variant&intron_variant"

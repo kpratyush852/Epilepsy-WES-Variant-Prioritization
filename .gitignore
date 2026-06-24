@@ -1,0 +1,31 @@
+# Raw / intermediate sequencing data (too large for GitHub)
+data/raw/
+data/trimmed/
+*.fastq.gz
+*.fq.gz
+
+# Reference genome and index files (too large)
+reference/
+*.fa
+*.fasta
+*.fa.fai
+*.dict
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+
+# Aligned/intermediate files (too large)
+*.bam
+*.bam.bai
+*.sam
+*.g.vcf.gz
+*.g.vcf.gz.tbi
+
+# OS / editor junk
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+*.log
